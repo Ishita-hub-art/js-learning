@@ -1,0 +1,73 @@
+//number = 2 to the power 53
+//bigInt
+//string =""
+//boolean = true/false
+//null = standalone value
+//undefined
+//symbol =unique
+
+
+//object
+//typeof=used for defining 
+let score="123"   //123
+console.log(typeof score);//String
+console.log(typeof(score));//string
+
+
+//type conversion:-
+
+//number:-
+let valueInnumber=Number(score)//123 
+console.log(typeof valueInnumber)//string 
+let car="33asd"
+let num=Number(car)
+console.log(typeof(num))//NaN
+
+//boolean:-
+let isLooged=""
+console.log(Boolean(isLooged))//false
+let isLoged="hii"
+console.log(Boolean(isLoged))//true
+let islog=2433333335
+console.log(Boolean(islog))
+let is=0
+console.log(Boolean(is))
+
+//String
+let num1=33
+ console.log(String(num1))//33
+console.log(typeof(num1))//number
+console.log(typeof(String(num1)))//string
+
+
+/*
+Two types of datatypes:-
+// primitive:-(call by value:changes made in copy of value)
+String,Number(including decimal value),Boolean,null(empty),undefined(declared but not initialized),Symbol,bigInt
+RETURN TYPE:"string","number","boolean","object","undefined",
+// Non-primitive:-()
+Arrays,Objects,Functions
+return type of non-primitive type is object
+
+//Javascript is dynamically type
+*/
+
+const id =Symbol('123')
+const anotherId=Symbol('123')
+console.log(id==anotherId)//false because symbol create unique value same description 
+//it show correct value if  reference is added to the variable name and
+//  Symbol.for() checks a global registry and returns the same symbol if it already exists
+// to avoid name collision, we use symbol
+
+//Array syntax:-in variable
+const heros=["mommy","mummy","mom"]
+//Object syntax:-in variable
+let myObj={
+    name: "hello",
+    age: 0,
+}
+//function syntax:- in variable
+const myFunction=function(){
+    console.log("Hello charm");
+}
+
