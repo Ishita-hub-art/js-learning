@@ -23,7 +23,7 @@ console.log(JsUser[mySym])//accessing of symbol datatype from object
 JsUser.age="89"//it will replace value in object with current one
 //Object.freeze(JsUser.User)//it will help to make object immutable
 
-JsUser.greeting=function(){
+JsUser.greeting=function(){// function in javascript treated as a variable
     console.log("Hello JS user");
 }
 JsUser.greeting1=function(){
