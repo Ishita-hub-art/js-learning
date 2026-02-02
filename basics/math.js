@@ -23,3 +23,11 @@ console.log(Math.floor(4.9));//low value 4
 console.log(Math.min(4,67,2,42,8));//2
 console.log(Math.max(8,4,87,98,972));//972
 
+console.log(Math.random())//write floating number between 0(inclusive) to 10(exclusive)like 0.1,0.2 etc.
+console.log((Math.random()*10) + 1);//it give you value greater than 0.
+
+const min=10
+const max=20
+console.log(Math.floor(Math.random() * (max-min +1) + min))
+
+
