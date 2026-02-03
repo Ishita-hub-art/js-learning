@@ -31,3 +31,5 @@ JsUser.greeting1=function(){
 }
 console.log(JsUser.greeting());
 console.log(JsUser.greeting1());
+
+
