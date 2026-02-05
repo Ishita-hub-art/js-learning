@@ -59,7 +59,7 @@ function calculation(val1,val2,...num2){
     return num2;//in this example val1-90,val2-45 and rest value belong to num2
 }
 //console.log(calculation(90,45,32,12,90,764,56))
-
+/*
 //PASSING OBJECT IN FUNCTION
 const user={
     username:" aadi",
@@ -76,3 +76,30 @@ function handleArr(newArr){
 return meArr
 }
 //console.log(handleArr(meArr))
+*/
+//################## THIS KEYWORD #####################
+//this is used for cuurent context
+const user1={
+    username1:"me",
+    price:999,
+    
+    message :function(){
+      //console.log(`${this.username1}, welcome to website`);
+        console.log(this);//print nothing written inside object
+      
+    }
+}
+//user1.message()
+//console.log(user1.username1)
+//user1.username1="samy"
+user1//only calling object refernce doesn't print
+//console.log(this) here this is empty object ({})-like this | but in console this represent as window object
+//inside console window is global object and in node engine empty is global object
+function chai(){
+    let username="heet"
+    console.log(this)//this will print some method which are built in
+console.log(this.username)//inside function this keyword doesn't work as it work inside object for current contexting
+}
+//chai()
+
+
