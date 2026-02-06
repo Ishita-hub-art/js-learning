@@ -22,4 +22,7 @@ let val1;// this operator used for checking error if by any chance any null valu
 //TERNARY OPERATOR
 //SYNTAX:: CONDITION ? TRUE : FALSE
 const icePrice=200;
-icePrice >=180 ? console.log("more than 180"):console.log("less than 180")
+//icePrice >=180 ? console.log("more than 180"):console.log("less than 180")
+
+
+

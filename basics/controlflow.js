@@ -37,9 +37,44 @@ switch(month){
         console.log(april)
     break;
     default:
-        console.log("Enter correct month")
+       // console.log("Enter correct month")
 }
 /*
 COMPARISON OPERATOR :-
 <,>,>=,<=,==(CHECKS VALUE),===(CHECKS FOR DATATYPE),!==
 */
+
+//**************** LOOP STATEMENT ***************//
+for(let index=1; index<=20;index++){
+   
+    if(index==5){
+        //console.log("5 detected");
+    }
+    if(index==8){
+        //break;//help in exiting from whole loop
+        continue;
+    }
+     //console.log(index);
+}
+
+//WHILE LOOP 
+ let index=0
+while(index<=10){
+  // console.log(index) 
+   index++
+}
+//while loop in array
+const myArray2=[5,8,98,3,4,1];
+let arr=0;
+while(arr!=myArray2.length-1){
+//console.log(`Value of myArray2 is ${myArray2[arr]}`)
+arr++
+}
+//do-while loop
+let score1=11
+do{
+    console.log(`your score value is ${score1}`);
+    score1++
+}while(score1<=17){
+console.log(`score value is ${score1}`)
+}
